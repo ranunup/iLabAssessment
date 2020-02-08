@@ -21,7 +21,9 @@ I'm using NetBeans IDE 8.2 (Build 201609300101).
               
 Add libraries from the jars.zip folder by right clicking on the Project then navigating to > Properties > Libraries
 Also note that I'm using JDK 1.8 for this project.
-Import the sql scripts containing test data to your mysql data base and navigate to data.reader > DatabaseReader.java to set your mysql database credentials.
+
+For flat file execution an excel file exists under data/iLabTests.
+For database execution import the sql script named sql_data.sql to your mysql data base and navigate to data.reader > DatabaseReader.java to set your mysql database credentials.
 
 Once all these steps have been successfully executed, run the project.
 
