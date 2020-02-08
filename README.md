@@ -7,7 +7,7 @@ Download and install <a href="https://www.docker.com/products/docker-desktop">Do
 Verify your docker version by issuing command : docker --version, mine is : Docker version 19.03.5, build 633a0ea
 
 ### Pull the following docker selenium images:
-        - selenium/hub
+	- selenium/hub
 	- selenium/node-chrome-debug (selenium/node-chrome works too, '-debug' version allows for viewing with vnc server)
 	- selenium/node-firefox-debug
 To achieve this execute : docker pull <image_name> from your command line.
@@ -30,4 +30,4 @@ The console window should indicate the current test step, upon completion you ca
 To change the browser you're executing against or test data source navigate to : src > resources > config.properties
 and change the webDriver variable or testExecMethod respectively, for brower types the only options catered for are chrome and firefox and for data sources only flat_file and database are catered for.
 
-*All the best :-).
+All the best :-).
