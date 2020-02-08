@@ -6,10 +6,10 @@ Download and install <a href="https://www.docker.com/products/docker-desktop">Do
 
 Verify your docker version by issuing command : docker --version, mine is : Docker version 19.03.5, build 633a0ea
 
-Markup : - ###Pull the following docker selenium images:###
-Markup : - selenium/hub
-Markup : - selenium/node-chrome-debug (selenium/node-chrome works too, '-debug' version allows for viewing with vnc server)
-Markup : - selenium/node-firefox-debug
+### Pull the following docker selenium images:
+				- selenium/hub
+				- selenium/node-chrome-debug (selenium/node-chrome works too, '-debug' version allows for viewing with vnc server)
+				- selenium/node-firefox-debug
 To achieve this execute : docker pull <image_name> from your command line.
 
 Once these have been successfully pulled navigate to the root of this project and run the docker-compose.yml file
