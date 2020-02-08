@@ -16,7 +16,7 @@ Once these have been successfully pulled navigate to the root of this project an
 in detached mode using command: docker-compose up -d, this starts up selenium/hub node and attaches both the chrome
 and firefox nodes to the hub node.
 
-To execute test scripts, kindly import this project to Netbeans,
+To execute test scripts, kindly import this project into Netbeans,
 I'm using NetBeans IDE 8.2 (Build 201609300101).
               
 Add libraries from the jars.zip folder by right clicking on the Project then navigating to > Properties > Libraries
